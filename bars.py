@@ -103,8 +103,8 @@ def get_subjectdata(html, n):
     return rating_dict
 
 def main():
-    login = 'GusevYegA'
-    password = 'huf283a'
+    login = '---'
+    password = '----'
 
     html = auth(login, password)
     # print(html)
