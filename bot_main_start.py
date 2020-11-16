@@ -3,11 +3,10 @@
 #       name: myMPEI_bot
 #       photo: mpei.jpg
 #       short_name: myMPEI
-#       token: 1242069093:AAFZr78T1oihvVurSNdzX_4cCmA7qECqDw0
+#       token: -
 #       making requests: https://api.telegram.org/bot<token>/METHOD_NAME (/getMe)
-#       deleteWebHook: https://api.telegram.org/bot1242069093:AAFZr78T1oihvVurSNdzX_4cCmA7qECqDw0/deleteWebhook
-#       setWebHook: https://api.telegram.org/bot1242069093:AAFZr78T1oihvVurSNdzX_4cCmA7qECqDw0/setWebhook?url=
-#                   https://telegg.ru/orig/bot1242069093:AAFZr78T1oihvVurSNdzX_4cCmA7qECqDw0/setWebhook?url=
+#       deleteWebHook: -
+#       setWebHook: -
 
 
 # TODO: сделать уведомления о простановке оценок в БАРС(путем изменения балла тек. контроля)
@@ -33,7 +32,7 @@ from telegram import ReplyKeyboardRemove
 app = Flask(__name__)
 sslify = SSLify(app)
 
-token = '1242069093:AAFZr78T1oihvVurSNdzX_4cCmA7qECqDw0'
+token = '-'
 # url = 'https://api.telegram.org/bot' + token
 url = 'https://telegg.ru/orig/bot' + token
 __connection = None
