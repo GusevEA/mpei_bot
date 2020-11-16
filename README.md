@@ -1,4 +1,5 @@
 # mpei_bot
+  - работает через WebHook
   
   bot_main_start.py - основной файл
 
