@@ -107,8 +107,8 @@ def update_data(login, password, new_mail):
 
 
 def main():
-    login = 'GusevYegA'
-    password = 'huf283a'
+    login = '----'
+    password = '-----'
     html = auth(login, password)
     new_mail = is_new_mail(html)
     # print(mailfrom(html))
